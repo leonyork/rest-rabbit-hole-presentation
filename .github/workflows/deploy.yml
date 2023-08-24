@@ -29,7 +29,7 @@ jobs:
       - name: Install slidev
         run: npm i -g @slidev/cli
       - name: Build
-        run: slidev build --base yorkshire-devops-03-2023
+        run: slidev build --base rest-rabbit-hole-presentation
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
